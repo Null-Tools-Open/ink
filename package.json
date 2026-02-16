@@ -1,5 +1,5 @@
 {
-  "name": "ink",
+  "name": "@impulsedev/ink",
   "version": "1.0.0",
   "description": "Handwriting math recognition library",
   "license": "ISC",
@@ -14,9 +14,11 @@
     }
   },
   "files": [
-    "dist",
-    "model"
+    "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
     "dev": "tsup src/index.ts --format esm --dts --watch",
