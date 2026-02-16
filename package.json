@@ -1,0 +1,12 @@
+{
+  "name": "ink",
+  "version": "1.0.0",
+  "description": "Sketch to string library, used in nullboard",
+  "license": "ISC",
+  "author": "thximpulse",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
