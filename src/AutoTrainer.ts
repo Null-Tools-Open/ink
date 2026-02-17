@@ -18,8 +18,7 @@ export class AutoTrainer {
      * Train a model from labeled grid data.
      *
      * @param model - A compiled tf.LayersModel (28×28 input, 10-class softmax output)
-     * @param data  - Labeled training data: { "0": [grid[], ...], "1": [...], ... }
-     *                Each grid is a flat array of 784 floats (28×28).
+     * @param data  - Labeled training data: { "0": [grid[], ...], "1": [...], ... } Each grid is a flat array of 784 floats (28×28).
      * @param options - Training configuration
      * @returns Training history
     */
