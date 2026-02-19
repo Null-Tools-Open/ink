@@ -5,6 +5,7 @@ export { Parser, type ParsedExpression } from './Parser.js';
 export { Evaluator } from './Evaluator.js';
 export { DataAugmentor, type AugmentOptions } from './DataAugmentor.js';
 export { AutoTrainer, type TrainOptions } from './AutoTrainer.js';
+export { loadDefaultTrainingData, type TrainingDataset } from './defaultData.js';
 
 import { Stroke, type Point } from './Stroke.js';
 import { Segmenter } from './Segmenter.js';
